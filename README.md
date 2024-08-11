@@ -41,7 +41,7 @@ pip install torch torchvision matplotlib numpy requests pillow
 ## Usage
 
 ### 1. Training the Model
-To train the model, simply run the main script. The model will train for 25 epochs, and the training and validation losses will be displayed.
+To train the model, simply run the main script. The model will train for 32 epochs, and the training and validation losses will be displayed.
 
 ```bash
 python train.py
@@ -63,7 +63,7 @@ python predict_url.py --image_url "http://example.com/image.jpg"
 
 ## Results
 
-The model achieves a validation accuracy of approximately 88% after 25 epochs of training. The trained model can accurately predict the class of various clothing items in the Fashion MNIST dataset.
+The model achieves a validation accuracy of approximately 87% after 32 epochs of training. The trained model can accurately predict the class of various clothing items in the Fashion MNIST dataset.
 
 ## Examples
 
