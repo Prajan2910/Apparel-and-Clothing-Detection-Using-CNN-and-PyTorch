@@ -21,7 +21,6 @@ The project includes the following key components:
 - **Image Prediction**: Three options are provided to predict images:
   1. **Random Image from Dataset**: Use a random image from the Fashion MNIST dataset to predict the class.
   2. **Image from URL**: Preprocess and predict the class of an image from a given URL.
-  3. **Image from Local File**: Upload a local file to predict the class using the trained model. The predictions are then visualized along with the input image.
 
 ## Dependencies
 
@@ -60,13 +59,6 @@ To predict the class of an image from a URL, use the following command:
 
 ```bash
 python predict_url.py --image_url "http://example.com/image.jpg"
-```
-
-### 4. Predicting from a Local File
-To predict the class of an image from a local file, use the following command:
-
-```bash
-python predict_file.py --image_path "path/to/image.jpg"
 ```
 
 ## Results
