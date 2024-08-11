@@ -63,13 +63,21 @@ python predict_url.py --image_url "http://example.com/image.jpg"
 
 ## Results
 
-The model achieves a validation accuracy of approximately 87% after 32 epochs of training. The trained model can accurately predict the class of various clothing items in the Fashion MNIST dataset.
+The model achieves a validation accuracy of approximately 89% after 45 epochs of training. The trained model can accurately predict the class of various clothing items in the Fashion MNIST dataset.
 
 ## Examples
 
 ### Training and Validation Losses
 
-![Training and Validation Losses](https://github.com/Nightskull100/Dress-Type-Detection-using-CNN/blob/e09a0aced7fd61d2728f3875e930a70cb24d260d/Images/Training%20and%20Validation%20Losses.png)
+![Training and Validation Losses](https://github.com/Prajan2910/Apparel-and-Clothing-Detection-Using-CNN-and-PyTorch/blob/13c72b0855e873c04f390cd9dd26d2603b372bc5/images/training%20loss.png)
+
+### Sample Prediction
+
+I have given the Image URL and plotted the result:
+
+![Sample Prediction](https://github.com/Prajan2910/Apparel-and-Clothing-Detection-Using-CNN-and-PyTorch/blob/13c72b0855e873c04f390cd9dd26d2603b372bc5/images/Test%20image1.png)
+
+![result](https://github.com/Prajan2910/Apparel-and-Clothing-Detection-Using-CNN-and-PyTorch/blob/13c72b0855e873c04f390cd9dd26d2603b372bc5/images/test1%20result.png)
 
 This project was done by **Prajan Kannan**.
 
